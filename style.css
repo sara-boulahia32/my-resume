@@ -15,7 +15,11 @@ body {
 img {
   max-width: 100%;
 }
-
+.info{
+  columns: 2;
+  list-style-type: none;
+  padding: 0;
+}
 .icon {
   fill: currentColor;
   display: inline-block;
@@ -41,6 +45,7 @@ a:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
+
 section {
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -63,33 +68,16 @@ section:last-child {
 ***********************************/
 
 img.avatar {
-  width: 130px;
+  border-radius: 50%;
+  max-width: 150px;
+  margin: auto;
+  display: block;
+  margin-bottom: 50px;
 }
 
 .my-name {
   font-size: 48px;
   line-height: 1;
-}
-
-.my-title {
-  font-size: 24px;
-  font-weight: 300;
-  color: #236FB2;
-}
-
-.links {
-  display: flex;
-  margin: 10px 0 20px 0;
-}
-
-.link-item {
-  display: flex;
-  align-items: center;
-  flex: 1;
-}
-
-.link-item svg {
-  margin-right: 6px;
 }
 
 /***********************************
@@ -110,7 +98,7 @@ img.avatar {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-  font-size: 18px;
+  font-size: 15px;
 }
 
 .job-company {
